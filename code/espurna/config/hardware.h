@@ -1198,10 +1198,10 @@
 
     // DB18B20
     #ifndef DALLAS_SUPPORT
-    #define DALLAS_SUPPORT             	1
+    #define DALLAS_SUPPORT              1
     #endif
-    #define DALLAS_PIN                 	2
-    #define DALLAS_UPDATE_INTERVAL     	5000
+    #define DALLAS_PIN                  2
+    #define DALLAS_UPDATE_INTERVAL      5000
     #define TEMPERATURE_MIN_CHANGE      1.0
 
 // -----------------------------------------------------------------------------
