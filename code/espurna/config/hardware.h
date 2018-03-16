@@ -1484,6 +1484,23 @@
     #define LED1_PIN_INVERSE    0
 
 // -----------------------------------------------------------------------------
+// Boards made by Gotbadger
+// https://github.com/gotbadger
+// -----------------------------------------------------------------------------
+
+#elif defined(GOTBADGER_TYPE1)
+
+    // Info
+    #define MANUFACTURER        "GOTBADGER"
+    #define DEVICE              "WIFI_SENSOR_TYPE1"
+
+    // Sensor
+    #ifndef DHT_SUPPORT
+    #define DHT_SUPPORT           1
+    #endif
+    #define DHT_PIN               2
+
+// -----------------------------------------------------------------------------
 // Generic 8CH
 // -----------------------------------------------------------------------------
 
