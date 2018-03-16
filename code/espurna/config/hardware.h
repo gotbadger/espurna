@@ -1498,7 +1498,7 @@
     #ifndef DHT_SUPPORT
     #define DHT_SUPPORT           1
     #endif
-    #define DHT_PIN               2
+    #define DHT_PIN               4
 
 // -----------------------------------------------------------------------------
 // Generic 8CH
