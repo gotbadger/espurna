@@ -1500,6 +1500,16 @@
     #endif
     #define DHT_PIN               4
 
+#elif defined(GOTBADGER_MAG_SWITCH)
+
+    // Info
+    #define MANUFACTURER        "GOTBADGER"
+    #define DEVICE              "MAGNETIC_DOOR_SWITCH"
+
+    // MC 38 Sensor
+    #define BUTTON2_PIN         15
+    #define BUTTON2_MODE        BUTTON_PUSHBUTTON
+
 // -----------------------------------------------------------------------------
 // Generic 8CH
 // -----------------------------------------------------------------------------
