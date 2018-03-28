@@ -1500,6 +1500,18 @@
     #endif
     #define DHT_PIN               4
 
+#elif defined(GOTBADGER_TYPE2)
+
+    // Info
+    #define MANUFACTURER        "GOTBADGER"
+    #define DEVICE              "WIFI_SENSOR_TYPE2"
+
+    // Sensor
+    #ifndef DHT_SUPPORT
+    #define DHT_SUPPORT           1
+    #endif
+    #define DHT_PIN               2
+
 #elif defined(GOTBADGER_MAG_SWITCH)
 
     // Info
